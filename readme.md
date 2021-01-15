@@ -1,5 +1,17 @@
 # poc-c4builder
 
+# Requeriments
+- [Docker](https://www.docker.com/products/docker-desktop)
+- [Node](https://nodejs.org/es/download/)
+
+# Getting started
+- Run command `make getting-started`
+    - This will install [c4builder](https://www.npmjs.com/package/c4builder)
+- Run command `make plantuml-server-up`
+    - This will create a local plantuml server, this server also expose as static files core C4 puml files
+- Run command `make run`
+    - This will create the site
+
 # Introduction
 
 This project was created using [c4builder](https://adrianvlupu.github.io/C4-Builder/)
