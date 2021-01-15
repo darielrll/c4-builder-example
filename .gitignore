@@ -1,0 +1,12 @@
+# compilation files
+docs
+
+# vscode
+.vscode
+
+#idea
+.idea
+
+#OSX
+.DS_Store
+src/.DS_Store
