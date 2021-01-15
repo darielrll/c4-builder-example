@@ -4,7 +4,7 @@ plantuml-server-up:
 			--name plantuml \
 			-e ALLOW_PLANTUML_INCLUDE=true \
 			-v $(PWD)/resources/lib/:/usr/local/tomcat/webapps/static \
-			hub.docker.prod.walmart.com/plantuml/plantuml-server:tomcat
+			plantuml/plantuml-server:tomcat
 
 plantuml-server-down:
 	docker rm -f plantuml
